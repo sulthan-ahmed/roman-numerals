@@ -9,7 +9,7 @@ describe('apps module', function(){
         var expectedNum = 1;
 
         // Act
-        var output = app.romanToModern('I');
+        var output = app.romanToModern(testNum);
 
         // Assert
         expect(output).to.be.equal(expectedNum);
@@ -17,11 +17,11 @@ describe('apps module', function(){
 
     it('returns 4 for roman IV', function () {
         // Arrange
-        var testNum = 'IV';
+        var testNum = 'II';
         var expectedNum = 4;
 
         // Act
-        var output = app.romanToModern('IV');
+        var output = app.romanToModern(testNum);
 
         // Assert
         expect(output).to.be.equal(expectedNum);

@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "main": "app.js",
-  "scripts":{
+  "scripts": {
     "start": "node .",
     "test": "mocha"
   },
-  "dependencies":{
-    "chai" : "3.5.0",
-    "mocha": "^2.4.5"
+  "dependencies": {
+    "chai": "3.5.0",
+    "mocha": "^3.5.0"
   }
 }
